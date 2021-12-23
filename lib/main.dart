@@ -21,6 +21,7 @@ class _PartnerDetailsAppState extends State<PartnerDetailsApp> {
   Widget build(BuildContext context) {
     var jsonObject = jsonDecode(json);
     return MaterialApp(
+      title: "Partner Details",
       theme: Theme.of(context).copyWith(
           textTheme: Theme.of(context).textTheme.apply(fontFamily: "Poppins")),
       home: PartnerDetails(
